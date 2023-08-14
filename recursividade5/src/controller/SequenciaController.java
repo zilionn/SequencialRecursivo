@@ -14,6 +14,6 @@ public class SequenciaController {
 		}
 		// relação de chamada dos passsos - o 1 permanece o mesmo;
 		// será decrementado do N até o resultado for = 1 e então a função ser despilhada. 
-		return 1 / N + sequencial(1 / N - 1);
+		return 1 / N + sequencial(N - 1);
 	}
 }
